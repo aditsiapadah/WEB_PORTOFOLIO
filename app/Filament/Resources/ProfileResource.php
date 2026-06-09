@@ -35,6 +35,11 @@ class ProfileResource extends Resource
 
             Forms\Components\Textarea::make('short_bio'),
 
+            Forms\Components\Textarea::make('about_me')
+                ->label('Tentang Saya')
+                ->rows(6)
+                ->columnSpanFull(),
+
             Forms\Components\Textarea::make('professional_vision'),
 
             Forms\Components\Textarea::make('mission'),

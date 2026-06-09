@@ -521,16 +521,9 @@ body{
 
                     <h4>Tentang Saya</h4>
 
-                    <p>
-                        {{ $user->profile->short_bio }}
-                    </p>
-
-                    <p>
-                        Saya adalah seorang pengembang web yang memiliki minat
-                        dalam membangun aplikasi modern menggunakan Laravel,
-                        Bootstrap, dan MySQL. Saya senang mempelajari teknologi
-                        baru serta menciptakan solusi digital yang bermanfaat.
-                    </p>
+                <p>
+                    {{ $user->profile?->about_me }}
+                </p>
 
                 </div>
             </div>

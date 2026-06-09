@@ -12,6 +12,7 @@ class Profile extends Model
         'username',
         'photo_profile',
         'short_bio',
+        'about_me',
         'professional_vision',
         'mission',
         'location',
